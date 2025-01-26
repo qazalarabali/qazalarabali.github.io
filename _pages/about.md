@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -18,8 +18,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## About Me
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hello! My name is Qazal Arabali, and I’m a final-year Computer Engineering student at **Iran University of Science and Technology (IUST)**. Throughout my academic journey, I have developed a deep passion for **Artificial Intelligence**, **Software Engineering**, and **Deep Learning**, which I find incredibly fascinating and rewarding to explore.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond academics, I am also a musician at heart. I play the **piano** and **cajón**, a passion I’ve been pursuing since I was 14 years old. Music is not just a hobby for me; it’s a way to express myself and find harmony in life.
+
+In addition to music, I actively participate in **CrossFit** as my sport of choice. It keeps me energized, disciplined, and motivated to stay healthy and active.
+
+Another one of my cherished hobbies is **writing**. I love putting my thoughts into words and crafting stories, essays, or reflections that connect with people and inspire creativity.
+
+Feel free to connect with me through the social links below or learn more about my journey on this site!
