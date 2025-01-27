@@ -58,7 +58,7 @@ This project involved developing a highly responsive AI-powered chatbot capable 
   <p class="post-tags">
     <strong>Tags:</strong>
     {% for tag in page.tags %}
-      <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag-link">{{ tag }}</a>
+      <a href="{{ '/tags/' | append: tag | prepend: site.baseurl }}" class="tag-link">{{ tag }}</a>
       {% unless forloop.last %}
         &nbsp;|&nbsp;
       {% endunless %}
