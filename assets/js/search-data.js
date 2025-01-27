@@ -133,12 +133,12 @@ ninja.data = [{
           title: 'IoT-Powered Smart Home Automation',
           description: "An IoT-based project to control and monitor home appliances remotely.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/iot-home-automation/";
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-web-application-for-team-collaboration",
           title: 'Web Application for Team Collaboration',
           description: "A robust web application to enhance team productivity and collaboration.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/web-application/";
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
