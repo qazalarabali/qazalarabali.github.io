@@ -2,8 +2,15 @@
 layout: page
 title: IoT-Powered Smart Home Automation
 description: An IoT-based project to control and monitor home appliances remotely.
-category: work
+img: assets/img/smart-home-overview.jpg
 importance: 4
+category: work
+tags:
+  - IoT
+  - smart-home
+  - automation
+  - remote-control
+  - energy-monitoring
 ---
 
 ### Overview
@@ -70,3 +77,16 @@ The system comprises three main layers:
 
 - Add compatibility with Alexa and Siri.
 - Expand the system to include security features like motion detection and CCTV monitoring.
+
+{% if page.tags.size > 0 %}
+
+  <p class="post-tags">
+    <strong>Tags:</strong>
+    {% for tag in page.tags %}
+      <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag-link">{{ tag }}</a>
+      {% unless forloop.last %}
+        &nbsp;|&nbsp;
+      {% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}

@@ -3,8 +3,13 @@ layout: page
 title: Web Application for Team Collaboration
 description: A robust web application to enhance team productivity and collaboration.
 img: assets/img/team-collaboration-0.jpg
-category: work
 importance: 3
+category: work
+tags:
+  - collaboration
+  - productivity
+  - team-management
+  - web-application
 ---
 
 ### Overview
@@ -71,3 +76,16 @@ The application follows a modular architecture:
 
 - Add integration with third-party tools like Slack and Trello.
 - Introduce advanced analytics for tracking team performance.
+
+{% if page.tags.size > 0 %}
+
+  <p class="post-tags">
+    <strong>Tags:</strong>
+    {% for tag in page.tags %}
+      <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag-link">{{ tag }}</a>
+      {% unless forloop.last %}
+        &nbsp;|&nbsp;
+      {% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}
