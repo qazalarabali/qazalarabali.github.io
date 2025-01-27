@@ -78,16 +78,3 @@ The system comprises three main layers:
 
 - Add compatibility with Alexa and Siri.
 - Expand the system to include security features like motion detection and CCTV monitoring.
-
-{% if page.tags.size > 0 %}
-
-  <p class="post-tags">
-    <strong>Tags:</strong>
-    {% for tag in page.tags %}
-      <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag-link">{{ tag }}</a>
-      {% unless forloop.last %}
-        &nbsp;|&nbsp;
-      {% endunless %}
-    {% endfor %}
-  </p>
-{% endif %}

@@ -77,16 +77,3 @@ The application follows a modular architecture:
 
 - Add integration with third-party tools like Slack and Trello.
 - Introduce advanced analytics for tracking team performance.
-
-{% if page.tags.size > 0 %}
-
-  <p class="post-tags">
-    <strong>Tags:</strong>
-    {% for tag in page.tags %}
-      <a href="{{ '/tags/' | append: tag | prepend: site.baseurl }}" class="tag-link">{{ tag }}</a>
-      {% unless forloop.last %}
-        &nbsp;|&nbsp;
-      {% endunless %}
-    {% endfor %}
-  </p>
-{% endif %}

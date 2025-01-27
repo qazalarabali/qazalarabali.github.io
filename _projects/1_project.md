@@ -52,16 +52,3 @@ This project involved developing a highly responsive AI-powered chatbot capable 
 <div class="caption">
     Example conversations showcasing chatbot capabilities.
 </div>
-
-{% if page.tags.size > 0 %}
-
-  <p class="post-tags">
-    <strong>Tags:</strong>
-    {% for tag in page.tags %}
-      <a href="{{ '/tags/' | append: tag | prepend: site.baseurl }}" class="tag-link">{{ tag }}</a>
-      {% unless forloop.last %}
-        &nbsp;|&nbsp;
-      {% endunless %}
-    {% endfor %}
-  </p>
-{% endif %}
