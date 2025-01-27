@@ -5,6 +5,7 @@ description: An IoT-based project to control and monitor home appliances remotel
 img: assets/img/smart-home-overview.jpg
 importance: 4
 category: work
+giscus_comments: true
 tags:
   - IoT
   - smart-home

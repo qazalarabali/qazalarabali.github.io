@@ -5,6 +5,7 @@ description: A robust web application to enhance team productivity and collabora
 img: assets/img/team-collaboration-0.jpg
 importance: 3
 category: work
+giscus_comments: true
 tags:
   - collaboration
   - productivity
