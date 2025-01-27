@@ -1,7 +1,10 @@
 ---
-layout: project
+layout: page
 title: Web Application for Team Collaboration
 description: A robust web application to enhance team productivity and collaboration.
+category: work
+related_publications: true
+importance: 3
 tags: [Web Development, React.js, Firebase, UX/UI]
 date: 2025-01-26
 ---

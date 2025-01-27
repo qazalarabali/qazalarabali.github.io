@@ -1,7 +1,10 @@
 ---
-layout: project
+layout: page
 title: IoT-Powered Smart Home Automation
 description: An IoT-based project to control and monitor home appliances remotely.
+category: work
+related_publications: true
+importance: 4
 tags: [IoT, Arduino, Automation, MQTT]
 date: 2025-01-24
 ---

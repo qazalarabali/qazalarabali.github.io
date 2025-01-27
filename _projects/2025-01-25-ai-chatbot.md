@@ -1,7 +1,10 @@
 ---
-layout: project
+layout: page
 title: AI Chatbot for Real-Time Assistance
 description: A sophisticated conversational AI chatbot designed for real-time user support.
+category: work
+related_publications: true
+importance: 5
 tags: [AI, Machine Learning, Natural Language Processing, Python]
 date: 2025-01-25
 ---
