@@ -5,7 +5,6 @@ description: A sophisticated conversational AI chatbot designed for real-time us
 img: assets/img/ai-chatbot.jpg
 importance: 5
 category: work
-giscus_comments: true
 tags:
   - AI
   - chatbot
