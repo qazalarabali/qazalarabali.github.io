@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -124,16 +124,16 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-iot-powered-smart-home-automation",
+          section: "News",},{id: "projects-ai-chatbot-for-real-time-assistance",
+          title: 'AI Chatbot for Real-Time Assistance',
+          description: "A sophisticated conversational AI chatbot designed for real-time user support.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-iot-powered-smart-home-automation",
           title: 'IoT-Powered Smart Home Automation',
           description: "An IoT-based project to control and monitor home appliances remotely.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/iot-home-automation/";
-            },},{id: "projects-ai-chatbot-for-real-time-assistance",
-          title: 'AI Chatbot for Real-Time Assistance',
-          description: "A sophisticated conversational AI chatbot designed for real-time user support.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ai-chatbot/";
             },},{id: "projects-web-application-for-team-collaboration",
           title: 'Web Application for Team Collaboration',
           description: "A robust web application to enhance team productivity and collaboration.",
